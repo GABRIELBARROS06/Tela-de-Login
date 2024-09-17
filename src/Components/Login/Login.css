@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+.container{
+width: 500px;
+background: linear-gradient(#FBFDFF,#9CCDFF,#9CCDFF);
+backdrop-filter: blur(10px);
+border: black;
+border-radius: 2%;
+padding: 40px;
+display: flex;
+flex-direction: column;
+padding-top: 20px; /* Adiciona um espaçamento no topo para a logo */
+}
+
+.container .input-field{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 30px auto;
+}
+
+.left {
+    width: 50%; /* Ocupa metade da tela */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Centraliza a imagem */
+    margin-right: 90px;
+  }
+
+  .left h1{
+    color: #FBFDFF;
+    font-size: 64px;
+    font-family: nunito;
+  }
+  
+  
+
+.container .logo{
+    display: block;
+    margin: 0 auto 20px auto; /* Centraliza horizontalmente e adiciona espaçamento inferior */
+    width: 150px; /* Define um tamanho adequado para a logo */
+    height: auto; /* Mantém a proporção da imagem */
+
+}
+
+.input-field input{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.input-field input::placeholder {
+    color: #9B9B9B;
+}
+
+.input-field .icon{
+    position: absolute;
+    right: 25px;
+    top: 25%;
+    transform: translate(-50%);
+    font-size: 18px;
+
+}
+
+.container .esqueci a{
+    text-decoration: none;
+    outline: none;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: right;
+    font-weight: 700;
+    color: black;
+}
+
+.container button{
+    width: 100%;
+    height: 50px;
+    background-color: #1B8BFF;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+   
+      
+}
+
+.container .footer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.container .footer a{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+}
